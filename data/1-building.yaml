@@ -48,7 +48,7 @@ CLIENT:
     - summary: Works effectively within established client side architectures, following current best practices
       signals:
         - Makes minor modifications to existing layouts
-        - Fixes simple design quality issues
+        - Debugs and fixes simple JavaScript issues
         - Uses CSS appropriately, following style guide
       examples:
         - Update banner copy on frontend
@@ -56,31 +56,34 @@ CLIENT:
         - Modify margin on ad-slot commercial container
     - summary: Develops new instances of existing architecture, or minor improvements to existing architecture
       signals:
-        - Makes sensible abstractions based on template and code patterns
-        - Specs and builds interactive components independently
-        - Prototypes simple new features quickly
+        - Aware of different browsers implementations and optimize for the main browsers of the team
+        - Identifies the correct features to test
+        - To be able to interact with third-party services and APIs
       examples:
-        - Convert Frontend relative dates module to ES6 and add flow types
-        - Add simple lint rules to Frontend codebase
-        - Implement minor redesign of proposer sidebar
+        - Tested new features in old browsers.
+        - Write unit tests for specific functions and integration tests for critical path features
+        - Interacts with ophan api
     - summary: Designs standalone systems of moderate complexity, or major new features in existing systems
       signals:
-        - Provides useful design feedback and suggests feasible alternatives
-        - Performs systemic tasks to significantly minimise bundle size
-        - Acts a caretaker for all of web client code
+        -
       examples:
-        - Architect and deliver Pillars on Frontend
-        - Iterate on new navbar with design/UX and implement
-        - Migrate Composer text editor from Scribe to Prosemirror
+        -
     - summary: Builds complex, reusable architectures that pioneer best practices for other engineers, or multi-system services
       signals:
         - Pioneers architecture migrations that reduce programmer burden
-        - Implements complex UI transitions that bring delight
         - Makes architectural decisions that eliminate entire classes of bugs
+        - Identify performance issues and come up with the most cost efficient solution
       examples:
         - Migrate Frontend codebase to ES6 and introduce type-safety using Flow, promoting use across department
-        - Implement infinite and fast scroll in the Grid
-        - Migrate from browserify to webpack
+        - Sending above the fold content in the first 14kb of the response
+    - summary:
+      signals:
+        - Shapes client-side standards
+        - Identifies unsolved problems and delivers world-class solutions
+      examples:
+        - Submit a new feature proposal to TC39
+        - Create a department wide tool used to solve client-side problems that are unique to companies of the Guardian's scale
+        - Create React
 
 INFRASTRUCTURE:
   displayName: Infrastructure
